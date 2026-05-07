@@ -1,0 +1,82 @@
+Standard Keywords (Original & Evolutionary)
+These form the core syntax of the language:
+1.abstract-Declares a class or method that must be implemented by a subclass.
+2.assert-Used for debugging to test an expression that must be true.
+3.boolean-A data type that holds only true or false.
+4.break-Exits a loop or a switch block immediately.
+5.byte-An 8-bit integer data type.
+6.case-Defines a specific branch of code inside a switch statement.
+7.catch-Block of code that handles exceptions thrown in a try block.
+8.char-A data type that holds a single 16-bit Unicode character
+9.class-Defines a new class (the blueprint for objects).
+10..continue-Skips the rest of the current loop iteration and moves to the next.
+*.const-Reserved but unused; cannot be used as an identifier
+11.default-Specifies the code to run if no case matches in a switch.
+12.do-Starts a do-while loop, which executes at least once.
+13.double-A 64-bit floating-point data type for decimal numbers.
+14.else-Executes if the condition in an if statement is false.
+15.enum-Defines a fixed set of constants (e.g., Days of the Week).
+*exports-Used in modules to make a package accessible to other modules.
+16.extends-Indicates that a class is inheriting from a parent class.
+17.final-Makes a variable constant, a method un-overridable, or a class un-inheritable.
+18.finally-A block of code that runs after try-catch, regardless of the outcome.
+19.float-A 32-bit floating-point data type for decimal numbers.
+20.for-Starts a loop with an initialization, condition, and increment.
+*goto-Reserved but unused; cannot be used as an identifier.
+21.if-Starts a conditional statement to execute code if a condition is true.
+22.implements-Indicates that a class is providing logic for an interface.
+23.import-Includes other classes or packages in the current file.
+24.instanceof-Checks if an object is an instance of a specific class or interface.
+25.int-A 32-bit integer data type.
+26.interface-Declares a contract that classes must implement.
+27.long-A 64-bit integer data type for very large numbers.
+*modlue-Declares a group of related packages and resources.
+28.native-Indicates a method is implemented in platform-dependent code (like C/C++).
+29.new-Creates a new instance of an object or array.
+*non-sealed-Allows a subclass of a sealed class to be extended by any class.
+*permits-Lists the specific classes allowed to extend a sealed class.
+30.package-Declares a grouping for related classes.
+31.private-An access modifier: code is only visible within the same class.
+32.protected-An access modifier: code is visible within the same package and subclasses.
+33.public-
+34.return-An access modifier: code is visible to all other classes.
+35.short-A 16-bit integer data type.
+36.static-Belongs to the class itself rather than a specific object instance.
+37.strictfp-Ensures floating-point calculations are identical across all platforms
+38.super-Refers to the parent class (superclass) of the current object.
+39.switch-Selects one of many code blocks to be executed based on a value.
+40.synchronized-Prevents multiple threads from accessing a block of code at once.
+41.this-Refers to the current instance of the class.
+42.throws-Declares the exceptions a method might throw.
+43.throw-Explicitly throws an exception.
+44.transient-Prevents a variable from being serialized (saved to a file/network).
+45.try-Starts a block of code to be tested for errors.
+46.var-Allows the compiler to infer the variable type (Local Variable Type Inference).
+*void-Indicates that a method does not return a value.
+47.volatile-Tells the JVM that a variable's value may be changed by different threads.
+48.while-Starts a loop that repeats as long as a condition is true.
+
+49. module- It clearly lists what other modules are required to run the code.
+50. non-sealed-It is used to "open back up" a class hierarchy that was previously restricted.
+51. permits- is used in a sealed class or sealed interface to explicitly list which specific subclasses are allowed to extend it.
+52. record-s a special type of class designed to be a transparent carrier for immutable data.
+53. requires-is used inside a module-info.java file to specify that one module depends on another. It tells the Java system, "In order for this module to work, I need that module's code available."
+54. sealed-allows you to restrict inheritance. It lets a class or interface specify exactly which other classes are allowed to extend or implement it.
+55. var-allows for Local Variable Type Inference. It tells the compiler to figure out the data type automatically based on the value you assign to it.
+56. yield-Returns a value from a switch expression.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
