@@ -1,0 +1,34 @@
+Understanding Character Encodings: ASCII and Unicode
+Character encodings are systems that allow computers to represent text (letters, numbers, and symbols) as binary data (1s and 0s). Two of the most significant standards in computing history are ASCII and Unicode.
+1. ASCII (American Standard Code for Information Interchange)
+Developed in the early 1960s, ASCII was the first major standard for character encoding.
+Bit Depth: It originally used 7 bits to represent characters.
+Capacity: It can represent 128 unique characters (2^7).
+Character Set: Includes English letters (A-Z, a-z), digits (0-9), punctuation marks, and control characters (like "newline" or "backspace").
+Limitation: ASCII is strictly limited to the English alphabet and basic symbols, making it insufficient for international communication.
+[Image of ASCII character table]
+2. Unicode
+Unicode was created to solve the limitations of ASCII by providing a unique number for every character, no matter what the platform, device, application, or language.
+Capacity: It can define over 1.1 million characters.
+Character Set: Covers virtually all modern writing systems (Latin, Cyrillic, Arabic, Hebrew, Chinese, Japanese, etc.), as well as mathematical symbols, emojis, and historical scripts.
+Relationship to ASCII: Unicode is designed to be backward compatible with ASCII. The first 128 characters of Unicode are identical to the ASCII set.
+3. Key Differences Comparison
+Feature
+ASCII
+Unicode
+ 
+Number of Bits
+7-bit (often stored in 8-bit bytes)
+Variable (8, 16, or 32 bits depending on UTF format)
+Max Characters
+128
+1,114,112
+Language Support
+English Only
+Universal (All Languages)
+Commonly Used In
+Legacy systems, basic protocols
+Modern Web, OS, and Software
+
+4. Unicode Transformation Formats (UTF)
+Unicode characters can be encoded in different ways. The most common is UTF-8, which uses one byte for ASCII characters but up to four bytes for other characters, making it highly efficient for web us
