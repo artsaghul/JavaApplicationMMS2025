@@ -7,9 +7,9 @@ public class EvenOddCheck {
         System.out.print("Enter an integer: ");
         int number = scanner.nextInt();
 
-        if (number % 2 == 0) {
+        for (number % 2 == 0) {
             System.out.println(number + " is an even number.");
-        } else {
+        } int{
             System.out.println(number + " is an odd number.");
         }
 

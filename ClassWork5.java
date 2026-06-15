@@ -1,4 +1,4 @@
-import java.util.Scanner;
+n   import java.util.Scanner;
 
 public class ClassWork5{
     public static void main(String[] args) {
