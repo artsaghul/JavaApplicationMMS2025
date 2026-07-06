@@ -1,5 +1,4 @@
-public class EnhancedForLoop{
-	public static void main(Strings[] args){
+public static void main(Strings[] args){
 		String names = ("John","Jack","Mary","James","Lucy");
 		
 		System.out.println("Student Name are");
@@ -9,5 +8,3 @@ public class EnhancedForLoop{
 		
 	    
 	}
-
-}

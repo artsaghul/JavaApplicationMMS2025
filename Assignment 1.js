@@ -24,7 +24,7 @@ public class Userinput{
 	System.out.printf("Information about %s$n",name");
 	System.out.println ("===========");
 	
-	System.out.printf("Hello %s, oyu are welcome to NIIT%n" ,name);
+	System.out.printf("Hello %s,you are welcome to NIIT%n" ,name);
 	System.ou.printf("You are a %s and tyou are %d years old%n" , gender,age);
 	System.out.printf("There are %d students in your class%n" , numberofStudent);
 	System.out.printf("THe total number of students in your school is %,d%n",totalNumber);

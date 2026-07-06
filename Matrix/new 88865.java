@@ -1,4 +1,4 @@
-public class EnhancedForLoop{
+public class EnchancedForLoop2{
 	public static void main(Strings[] args){
 		String names = ("John","Jack","Mary","James","Lucy");
 		
